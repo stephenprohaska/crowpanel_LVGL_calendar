@@ -34,3 +34,6 @@
 
 # secrets
 secrets.h
+
+#editor settings
+.vscode

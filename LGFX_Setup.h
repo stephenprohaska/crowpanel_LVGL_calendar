@@ -40,7 +40,7 @@ public:
       cfg.pin_vsync   = 40;
       cfg.pin_hsync   = 39;
       cfg.pin_pclk    = 0;
-      cfg.freq_write  = 12000000; // 12MHz (Flicker-free)
+      cfg.freq_write  = 13000000; // 12MHz (Flicker-free)
 
       // TIMING PARAMETERS (MATCHING YOUR WORKING ESPHOME CONFIG)
       cfg.hsync_polarity    = 0;

@@ -4,7 +4,7 @@ A standalone, touch-enabled smart calendar for the Elecrow CrowPanel 7.0" ESP32 
 
 ## Features
 
-Easy Configuration: No hardcoding required. Configure WiFi and your Calendar URL directly from your phone or computer via a captive portal.
+Easy Configuration: No dedicated app required. Configure WiFi and your Calendar URL directly from your phone or computer
 
 Smart Filtering: Displays upcoming events only (from today -> next 90 days).
 
@@ -30,7 +30,7 @@ Install these via the Arduino Library Manager:
 
 LovyanGFX (by Lovyan03)
 
-lvgl (v8.3.x) - Do not install v9.x yet as this code is optimized for v8
+lvgl (v8.4) - Do not install v9.x yet as this code is optimized for v8
 
 WiFiManager (by tzapu) - Used for the setup portal
 
@@ -66,7 +66,7 @@ Note: WiFi, HTTPClient, WiFiClientSecure, and Preferences are built-in to the ES
 
 ## First Time Setup
 
-1. Once the code is uploaded, the screen will turn on and enter Setup Mode.
+1. Flash the sketch to the device via the Arduino IDE. Once the code is flashed to the device, the screen will turn on and enter Setup Mode.
 
 2. The screen will display a QR Code and credentials (SSID: CrowPanel-Setup and a randomly generated Password).
 
